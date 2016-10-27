@@ -1,0 +1,81 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.link-card {
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+  color: #512200;
+  background-color: #dcd4cd;
+  padding: .5rem 0 1rem;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 .5em;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0 0 1rem;
+  padding: .7em .75em .2em;
+}
+
+dl {
+  margin: 1rem 1rem 1.5rem;
+  border: 2px solid #9a816d;
+  border-right: 0;
+  border-left: 0;
+  font-size: .875rem;
+  padding: 1rem 0;
+}
+
+dt {
+  display: inline-block;
+  width: 6rem;
+
+}
+
+dd {
+  font-style: italic;
+  display: inline-block;
+  margin: 0 0 0 30px;
+}
+
+div.wrap {
+  text-align: center;
+
+}
+
+.btn {
+  padding: .4em .75em .5em;
+  border: 3px solid #785439;
+  border-radius: 8px;
+  color: #f0eee8;
+  background-color: #785439;
+  font-family: Dosis, sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  margin: 0 0 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover .btn {
+  color: #dcd4cd;
+  background-color: #512200;
+  border-color: #512200;
+}
